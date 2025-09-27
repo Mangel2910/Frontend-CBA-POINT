@@ -29,10 +29,10 @@
               </div>
               <div class="qr-details flex flex-col gap-2">
                 <div class="student-info mb-2">
-                  <h4 class="text-lg font-bold" style="color: #7ED957;">{{ user?.nombre || 'Estudiante' }}</h4>
-                  <p class="text-sm"><span class="font-semibold" style="color: #7ED957;">Cédula:</span> {{ user?.cedula }}</p>
-                  <p class="text-sm"><span class="font-semibold" style="color: #7ED957;">Ficha:</span> {{ user?.ficha }}</p>
-                  <p class="text-sm"><span class="font-semibold" style="color: #7ED957;">Programa:</span> {{ user?.programa || 'Biotecnología Agropecuaria' }}</p>
+                  <h4 class="text-lg font-bold" style="color: #7ED957;">{{ user?.name || 'Estudiante' }}</h4>
+                  <p class="text-sm"><span class="font-semibold" style="color: #7ED957;">Cédula:</span> {{ user?.documentNumber }}</p>
+                  <p class="text-sm"><span class="font-semibold" style="color: #7ED957;">Ficha:</span> {{ user?.role }}</p>
+                  <p class="text-sm"><span class="font-semibold" style="color: #7ED957;">Programa:</span> {{ user?.role || 'Biotecnología Agropecuaria' }}</p>
                 </div>
                 <div class="qr-metadata text-xs rounded-lg p-2" style="background-color: #212529; border: 1px solid #7ED957;">
                   <p><span class="font-semibold" style="color: #7ED957;">Código QR:</span> {{ currentQR.codigo }}</p>
