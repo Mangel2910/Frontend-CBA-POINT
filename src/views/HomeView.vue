@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/block-lang -->
 <template>
   <!-- Contenido principal de la página de inicio -->
   <main>

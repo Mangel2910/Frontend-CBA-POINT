@@ -74,7 +74,7 @@
     </p>
   </footer>
 </template>
-<script setup></script>
+
 
 <style scoped>
 /* Estilos específicos para el pie de página */

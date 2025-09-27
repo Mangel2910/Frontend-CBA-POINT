@@ -27,12 +27,12 @@
     <a
       href="#"
       download="cba-maps.apk"
-      class="inline-block h-[50px] w-[200px] bg-gradient-to-r from-[#7ED957] to-[#0097B2] rounded-full border-none cursor-pointer font-bold text-[1.2rem] text-[aliceblue] transition-all duration-400 hover:from-[#66b047] hover:to-[#006e81] hover:shadow-inner hover:bg-opacity-80 flex items-center justify-center"
+      class="inline-block h-[50px] w-[200px] bg-gradient-to-r from-[#7ED957] to-[#0097B2] rounded-full border-none cursor-pointer font-bold text-[1.2rem] text-[aliceblue] transition-all duration-400 hover:from-[#66b047] hover:to-[#006e81] hover:shadow-inner hover:bg-opacity-80 items-center justify-center"
       >¡Descárgala ya!</a
     >
   </section>
 </template>
-<script setup></script>
+
 
 <style scoped>
 /* Estilos adicionales para el componente, si son necesarios */
